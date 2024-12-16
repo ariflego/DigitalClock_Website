@@ -36,8 +36,8 @@ function timeMessage(){
         timeEmoji.textContent = "💪";
         inspQuotes.textContent = "Never give up on your dreams!"
     }
-    else if(hours > 19 && hours < 22){
-        timeMessage.textContent = "Relax time! You had done well for today.";
+    else if(hours >= 19 && hours < 22){
+        timeMessage.textContent = "Relax time! You did well today.";
         timeEmoji.textContent = "🕹️";
         inspQuotes.textContent = "Calm down your mind after a long day of work."
     }
